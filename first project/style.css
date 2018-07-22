@@ -330,23 +330,6 @@ figcaption{
 .clear{
 	clear: both;
 }
-/*.quote :before{
-	content: '\201C';
-	margin-right: 5px;
-	color: blue;
-}
-.quote :after{
-	content: '\201C';
-	margin-left: 5px;
-	color: blue;
-}*/
-/*.left{
-	text-align: right;
-	margin-right: 205px;
-
-
-}*/
-
 /***************Это таблица в конце***********/
 table{
 	width: 80%;
