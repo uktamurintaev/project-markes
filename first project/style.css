@@ -1,0 +1,383 @@
+
+/********Заголовок страницы*********/
+h1{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	color: #8fff18;
+	text-shadow:2px 3px 1px #ebb400;
+}
+/*************Левое меню**********/
+.lm{
+	float: left;
+	display: block;
+	width: 18.11111%;
+	height: 250px;
+	background-color:#59ecf3;
+	opacity: 0.7;
+	
+}
+/***************Правое меню********/
+.rm{
+	float: right;
+	display: block;
+	width: 18.3333%;
+	height: 250px;
+	background-color: #59ecf3;
+	opacity: 0.7;
+}
+/**************Картина внутри меню********/
+.markes{
+	/*position: absolute;	*/
+	height: 250px;
+	width: 63.55555%;
+	margin-left: 0px;
+	margin-right: 0px
+}
+.pos{
+	position: sticky;
+	top:3px;
+}
+li{
+	margin-top: 40px;
+	list-style: none;
+}
+li::before{
+	content:'\25ba';
+	width: 10px;
+	color: orange;
+
+}
+ul{
+	text-align: center;
+	text-indent: -30px;
+	color: green;
+	text-align: center;
+	vertical-align: center;
+	font-weight: bolder;
+	font-family: verdana;
+	padding:auto;
+}
+ul :hover{
+	color: pink;
+}
+@media(min-width: 500px) and (max-width: 800px){
+	.blog {width: 350px;}
+	.fieldset{width: 250px}
+
+}
+
+body{
+	background-image: url(circles-and-roundabouts.png.png);
+	background-repeat: repeat;
+		/*background-color: #717f98*/;
+	font-size: 16px;
+	/*text-align: justify-all;*/
+	font-family: tahoma,serif;
+}
+h2{
+	text-align: center;
+	font-family: verdana;
+	color: #c143bc;
+	font-size: 20px;
+}
+
+/****************Книги и описание книг********/
+.blog{
+	display: block;
+	border: 1px solid pink;
+	border-collapse: collapse;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.a{
+	height: 250px;
+	border-collapse: collapse;
+	
+}
+.b{
+	height: 228px;
+	border-collapse: collapse;
+	
+}
+.c{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+.e{
+	height: 250px;
+	border-collapse: collapse;
+	
+}
+.d{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+.f{
+	height: 228px;
+	border-collapse: collapse;
+	
+}
+
+.g{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+.h{
+	height: 228px;
+	border-collapse: collapse;
+	
+}
+
+.l{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+.k{
+	height: 228px;
+	border-collapse: collapse;
+	
+}
+
+.y{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+.i{
+	height: 228px;
+	border-collapse: collapse;
+	
+}
+
+.j{
+	height: 230px;
+	border-collapse: collapse;
+	
+}
+
+.child:first-letter{
+	color: red;
+	font-weight: bold;
+}
+.color{
+	color: #ebb400;
+	}
+.white{
+	color: #c143bc;
+}
+/*.nowhite {
+	color: #c143bc;
+}
+.nocolor {
+	color: #ebb400;
+}*/
+
+/******************Обложки книг********/
+.foto {
+	float: left;
+	height: 250px;
+	width: 160px;
+	margin-right:15px;
+}
+.uliss{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+	padding: 10px;
+}
+.one:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+.dyuma{
+	float: left;
+	height: 230px;
+	width: 160px;
+	margin-right:15px;
+}
+.zvuk{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+}
+.kogda{
+	float: left;
+	height: 250px;
+	width: 170px;
+	margin-right:15px;
+}
+.steyn{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+}
+.kafka{
+	float: left;
+	height: 230px;
+	width: 160px;
+	margin-right:15px;
+}
+.mis{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+}
+.grozd{
+	float: left;
+	height: 230px;
+	width: 160px;
+	margin-right:15px;
+}
+.stou{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+}
+.dom{
+	float: left;
+	height: 230px;
+	width: 160px;
+	margin-right:15px;
+}
+.noch{
+	float: right;
+	height: 230px;
+	width: 160px;
+	margin-left:15px;
+}
+.dik{
+	float: left;
+	height: 230px;
+	width: 160px;
+	margin-right:15px;
+}
+/**************Это цытата***********/
+.blok{
+	clear: both;
+	float: left;
+	display: block;
+	font-size: 18px;
+	width: 750px;
+	height: 200px;
+	background-image: url(notebook.jpg);
+	background-size: cover;
+	font-style: Times New Roman;
+	padding-left: 15px;
+	margin-left: 250px;
+	border: 3px dashed blue;
+}
+figcaption{
+	margin-top: -30px;
+	margin-left: 626px;
+	font-weight: bold;
+	/*text-decoration-color:red;*/
+    
+}
+.sitat{
+	/*float: left;*/
+	display: block;
+	background-image: url(sitat.jpg);
+	background-size: cover;
+	width: 120px;
+	height: 150px;
+	position: relative;
+	margin-left: 600px;
+	bottom: 30px;
+	/*position: absolute;*/
+	left: 15px;
+}
+@media(max-width: 1014px){
+	.blok{
+		width: 350px;
+		margin: auto;
+		padding: auto;
+	}
+	.sitat{
+		display: none;
+	}
+		figcaption{
+			margin-top: 0px;
+			margin-left: 220px;
+		}
+}
+	
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cler{
+	clear: both;
+}
+.clear{
+	clear: both;
+}
+/*.quote :before{
+	content: '\201C';
+	margin-right: 5px;
+	color: blue;
+}
+.quote :after{
+	content: '\201C';
+	margin-left: 5px;
+	color: blue;
+}*/
+/*.left{
+	text-align: right;
+	margin-right: 205px;
+
+
+}*/
+
+/***************Это таблица в конце***********/
+table{
+	width: 80%;
+	background-color: Khaki;
+	margin: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-size: 22px;
+	background-position: center;
+	}
+td,th {
+	border: 1px solid black;
+	padding: 3px; 
+	text-align: center;
+}
+th{
+	background-color: #77b9e6;
+}
+fieldset{
+	background-color: #90ef2cc2;
+}
+textarea{
+	float: left;
+	margin-right: 25px;
+	border:2px solid #a9c;
+}
+legend{
+	background-color:#f748f0ed;
+	border-radius: 5px;
+	padding: 5px 5px;
+}
+#name{
+	border: 2px solid red;
+}
