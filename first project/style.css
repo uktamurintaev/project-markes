@@ -39,14 +39,13 @@ h1{
 	top:3px;
 }
 li{
-	margin-top: 40px;
+	margin-top: 30px;
 	list-style: none;
 }
 li::before{
-	content:'\25ba';
-	width: 10px;
-	color: orange;
-
+	/*content: "\25ba";*/
+	content: url(publishing_32x32.png);
+	color: yellow;
 }
 ul{
 	text-align: center;
@@ -61,12 +60,6 @@ ul{
 ul :hover{
 	color: pink;
 }
-@media(min-width: 500px) and (max-width: 800px){
-	.blog {width: 350px;}
-	.fieldset{width: 250px}
-
-}
-
 body{
 	background-image: url(circles-and-roundabouts.png.png);
 	background-repeat: repeat;
@@ -191,7 +184,7 @@ h2{
 	height: 230px;
 	width: 160px;
 	margin-left:15px;
-	padding: 10px;
+/*	padding: 10px;*/
 }
 .one:after{
 	content: "";
@@ -300,6 +293,7 @@ figcaption{
 	bottom: 30px;
 	/*position: absolute;*/
 	left: 15px;
+	z-index: 10;
 }
 @media(max-width: 1014px){
 	.blok{
@@ -315,7 +309,10 @@ figcaption{
 			margin-left: 220px;
 		}
 }
-	
+@media(min-width: 500px) and (max-width: 800px){
+	.blog {width: 350px;}
+	.fieldset{width: 250px}
+
 }
 .clearfix:after{
 	content: "";
