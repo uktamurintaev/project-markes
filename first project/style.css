@@ -28,15 +28,17 @@ h1{
 }
 /**************Картина внутри меню********/
 .markes{
-	/*position: absolute;	*/
+	position: relative;	
 	height: 250px;
 	width: 63.55555%;
 	margin-left: 0px;
-	margin-right: 0px
+	margin-right: 0px;
+	z-index:100;
 }
 .pos{
 	position: sticky;
 	top:3px;
+	z-index: 100;
 }
 li{
 	margin-top: 30px;
@@ -84,6 +86,7 @@ h2{
 	padding-right: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	width: 100%;
 }
 .a{
 	height: 250px;
@@ -288,44 +291,11 @@ figcaption{
 	background-size: cover;
 	width: 120px;
 	height: 150px;
-	position: relative;
 	margin-left: 600px;
 	bottom: 30px;
-	/*position: absolute;*/
+	position: relative;
 	left: 15px;
 	z-index: 10;
-}
-@media(max-width: 1014px){
-	.blok{
-		width: 350px;
-		margin: auto;
-		padding: auto;
-	}
-	.sitat{
-		display: none;
-	}
-		figcaption{
-			margin-top: 0px;
-			margin-left: 220px;
-		}
-}
-@media(min-width: 500px) and (max-width: 800px){
-	.blog {width: 350px;}
-	.fieldset{width: 250px}
-
-}
-.clearfix:after{
-	content: "";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-.cler{
-	clear: both;
-}
-.clear{
-	clear: both;
 }
 /***************Это таблица в конце***********/
 table{
@@ -360,4 +330,107 @@ legend{
 }
 #name{
 	border: 2px solid red;
+}
+/***************Здесь все адаптации***************/
+@media(max-width: 880px)
+{
+	.blok{
+		max-width: 350px;
+		margin: auto;
+		padding: auto;
+		clear: both;
+	}
+	.sitat{
+		display: none;
+	}
+	figcaption{
+		margin-top: 0px;
+		margin-left: 220px;
+	}
+	.blog{
+		display: block;
+		width: 750px;
+		border: none;
+	}
+/******обложки книг*/
+.foto{
+		display: none;
+		clear: both;
+}
+.uliss{
+	display: none;
+		clear: both;
+}
+.one:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+.dyuma{
+	display: none;
+		clear: both;
+}
+.zvuk{
+	display: none;
+		clear: both;
+}
+.kogda{
+	display: none;
+		clear: both;
+}
+.steyn{
+	display: none;
+		clear: both;
+}
+.kafka{
+	display: none;
+		clear: both;
+}
+.mis{
+	display: none;
+		clear: both;
+}
+.grozd{
+	display: none;
+		clear: both;
+}
+.stou{
+	display: none;
+		clear: both;
+}
+.dom{
+	display: none;
+		clear: both;
+}
+.noch{
+	display: none;
+		clear: both;
+}
+.dik{
+	display: none;
+		clear: both;
+}
+	h2{
+		clear: both;
+	}
+}
+
+
+/*******************************************************/
+
+
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cler{
+	clear: both;
+}
+.clear{
+	clear: both;
 }
