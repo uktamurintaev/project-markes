@@ -4,7 +4,7 @@ h1{
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
-	color: #8fff18;
+	color: green;
 	text-shadow:2px 3px 1px #ebb400;
 }
 /*************Левое меню**********/
@@ -416,11 +416,6 @@ legend{
 		clear: both;
 	}
 }
-
-
-/*******************************************************/
-
-
 .clearfix:after{
 	content: "";
 	display: block;
